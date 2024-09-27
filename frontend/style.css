@@ -54,6 +54,7 @@ htmal, body{
     /*padding: 2vw;*/
 }
 
+
 .Loading {
     position: relative;
     left: 50%;
@@ -129,4 +130,19 @@ htmal, body{
         /*width: 100%;*/
         background-color: #a944fb;
     }
+}
+
+#continueBtn {
+    position: absolute;
+    top: 80%; /* Positioning below the loading bar */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    font-size: 26px;
+    font-family: Chana;
+    background-color: #fff; /* White background for visibility */
+    color: #c086f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
