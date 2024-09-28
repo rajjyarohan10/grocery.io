@@ -146,3 +146,14 @@ htmal, body{
     border-radius: 5px;
     cursor: pointer;
 }
+
+#zipCodeInput {
+    position: absolute;
+    top: 72%; /* Positioning above the continue button */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
