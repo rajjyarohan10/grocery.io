@@ -74,7 +74,7 @@ htmal, body{
     bottom: 10%;
     height: 100%;
     border-radius: 4px;
-    animation: load 5s;
+    animation: load 4s;
 }
 
 @keyframes load{
@@ -154,6 +154,13 @@ htmal, body{
     transform: translateX(-50%);
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #ccc;
+    background-color: #fff; /* Light grey background for the input box */
+    color: #333; /* Dark grey color for input text */
+    border: 2px solid #ccc; /* Border color */
     border-radius: 5px;
+}
+
+/* Style the placeholder text */
+#zipCodeInput::placeholder {
+    color: #c086f0; /* Lighter grey for placeholder text */
 }
