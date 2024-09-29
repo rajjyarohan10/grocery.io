@@ -12,16 +12,16 @@ $(document).ready(function(){
         });
     });
 
-    // Handle click on continue button
-    $("#continueBtn").click(function() {
+   $("#continueBtn").click(function() {
         var zipCode = $("#zipCodeInput").val();
-        // Check if the zip code input is not empty
         if (zipCode.trim() === "") {
             alert("Please enter your zip code to continue.");
         } else {
-            // Proceed with the next step if zip code is entered
-            alert("Zip Code entered: " + zipCode + ". Proceeding...");
-            // Add additional actions here to actually proceed
+            // Fade out the current page before redirecting
+            $("body").fadeOut(1000, function() {
+                // Redirect to the second page
+                window.location.href = "second_page.html";
+            });
         }
     });
 });

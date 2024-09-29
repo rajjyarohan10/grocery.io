@@ -164,3 +164,44 @@ htmal, body{
 #zipCodeInput::placeholder {
     color: #c086f0; /* Lighter grey for placeholder text */
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c086f0; /* Set the main color */
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 25%;
+    background-color: #b075d6; /* Slightly darker shade for contrast */
+    color: white;
+    padding: 20px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff50; /* Light white border for separation */
+    cursor: pointer;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff; /* Light background for content area */
+}
+
+#sidebar li:hover {
+    background-color: #a064c6; /* Hover effect for sidebar items */
+}
